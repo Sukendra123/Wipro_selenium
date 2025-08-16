@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite>
+<test name="TestGoogle">
+		<classes>
+			<class name="testDemo1.FirstTest">
+				<methods>
+					<include name="TestGoogle" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+</suite>
